@@ -30,713 +30,7 @@ Mei.Songs = (function () {
 
     //  // // console.log(sname, " : ", slyrics);
     // };
-    // =============================================
-    var template = { 
-        "id": "xxx",  
-        "orig": "en",
-        "name": "xxx", 
-        "lyrics": [
-            {
-                "lang": "xx",
-                "verses": [
-                    [
-                        ""
-                    ]
-                ],
-                "choruses": [
-                    [
-                        ""
-                    ]
-                ]
-                ,
-                "bridges": [
-                    [
-                        ""
-                    ]
-                ]
-            },
-            {
-                "lang": "xxx",
-                "verses": [
-                    [
-                        ""
-                    ]
-                ],
-                "choruses": [
-                    [
-                        ""
-                    ]
-                ]
-                ,
-                "bridges": [
-                    [
-                        ""
-                    ]
-                ]
-            }
-        ]
-    }
-    ;
-    // =============================================
-
-    var store = [
-        { 
-            "id": "our-god",  
-            "name": "Our God", 
-            "orig": "en",
-            "lyrics": [
-                {
-                    "lang": "en",
-                    "verses": [
-                        [
-                            "Water You turned into wine",
-                            "Opened the eyes of the blind",
-                            "There's no one like You",
-                            "None like You",
-                        ],
-                        [
-                            "Into the darkness You shine",
-                            "Out of the ashes we rise",
-                            "There's no one like You",
-                            "None like You",
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Our God is greater,",
-                            "Our God is stronger",
-                            "God You are higher than any other",
-                            "Our God is Healer,",
-                            "Awesome in power",
-                            "Our God, Our God"
-                        ]
-                    ]
-                    ,
-                    "bridges": [
-                        [
-                            "And if our God is for us,",
-                            "then who could ever stop us.",
-                            "And if our God is with us,",
-                            "then what could stand against.",
-                        ]
-                    ]
-                },
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "Воду Ты сделал вином",
-                            "Кто слеп, увидел Твой свет",
-                            "Ведь нет другого,",
-                            "только Ты!",
-                        ],
-                        [
-                            "Светом рассеял Ты тьму",
-                            "Слабых поднял из пыли",
-                            "Ведь нет другого,",
-                            "только Ты!",
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Наш Бог Великий,",
-                            "Наш Бог Всесильный",
-                            "Всех превосходнее в целом мире!",
-                            "Наш Бог Целитель,",
-                            "Чудный Спаситель",
-                            "Наш Бог! Наш Бог!"
-                        ]
-                    ]
-                    ,
-                    "bridges": [
-                        [
-                            "Кто может победить нас,",
-                            "Когда Господь живёт в нас",
-                            "И если Бог за нас,",
-                            "Никто не победит",
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "you-are-worthy",  
-            "orig": "en",
-            "name": "You are worthy", 
-            "lyrics": [
-                {
-                    "lang": "en",
-                    "verses": [
-                        [
-                            "Any crown I've ever worn I lay it down",
-                            "Any praise I've ever gained",
-                            "I give it all to You",
-                            "For there's nothing in this world",
-                            "that can compare",
-                            "For You alone are worthy (x2)"
-                        ],
-                        [
-                            "You are near to all who call upon Your name",
-                            "Ever givin', ever loving You remain the same",
-                            "For You open up Your hand And satisfy",
-                            "give You all the glory",
-                            "give You all the glory!"
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "You are worthy, oh Lord, of all honour",
-                            "You are worthy to receive all praise",
-                            "In Your presence I live",
-                            "And with all I have to give",
-                            "I will worship You"
-                        ]
-                    ],
-                    "bridges": [
-                        [
-                            "I will worship You",
-                            "Honour You",
-                            "Glorify Your holy name",
-                            "(x2)",
-                        ]
-                    ]
-                },
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "Все награды и венцы свои отдам",
-                            "Все заслуги и хвалу кладу я",
-                            "пред Тобой",
-                            "Ведь подобного Тебе не видел мир.",
-                            "Лишь Ты Один достоин.",
-                            "Ты Один достоин."
-                        ],
-                        [
-                            "Близок Ты ко всем, кто Имя Твоё чтит",
-                            "Вечно щедрый, вечно любящий,",
-                            "всё Тот же Ты.",
-                            "И за то, что жизнь мою насытил Ты",
-                            "Воздам Тебе всю славу (x2)"
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Ты достоин, о, Бог, высшей славы.",
-                            "Ты достоин, Бог, принять всю честь.",
-                            "Я живу для Тебя",
-                            "И всем, что есть внутри меня ",
-                            "Поклоняюсь я."
-                        ]
-                    ],
-                    "bridges": [
-                        [
-                            "Поклоняюсь я. ",
-                            "Чту Тебя,",
-                            "Славлю я Тебя,",
-                            "Мой Бог",
-                            "(x2)"
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "v-glubine-tvoih-sinih-glaz",
-            "orig": "ru",  
-            "name": "В глубине твоих синих глаз", 
-            "lyrics": [
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "В глубине Твоих синих глаз",
-                            "В ритме Сердца Того,",
-                            "Кто есть Жизнь",
-                            "Утонуть хочу.",
-                            "Раствориться хочу. (x2)"
-                        ],
-                        [
-                            "В тихом веянии и в шуме дождя",
-                            "В объятиях Того,",
-                            "Кто – Любовь",
-                            "Затеряться хочу.",
-                            "Ой, хочу. (x2)"
-                        ],
-                        [
-                            "В нежном голосе и в запахе трав",
-                            "В аромате цветов – узкий путь",
-                            "Я идти хочу.",
-                            "Я хочу не уснуть. (x2)"
-                        ],
-                        [
-                            "В тесноте, только не без Тебя",
-                            "В стуке молота и в жаре огня",
-                            "Я согреться хочу.",
-                            "Ой, хочу. (x2)"
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "А я к Тебе иду,",
-                            "Твоей Милостью прощённый",
-                            "А я к Тебе стремлюсь,",
-                            "Благодатью спасён",
-                            "А я к Тебе бегу.",
-                            "Твоей Раной исцелённый"
-                        ],
-                        [
-                            "Я Тобой захвачен в Плен",
-                            "В моём сердце сотни стрел",
-                            "Твоей Любви."
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "scandal-of-grace",
-            "orig": "en",  
-            "name": "Scandal of Grace", 
-            "lyrics": [
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "Как постичь Благодать,",
-                            "Что смогла за меня смерть принять?",
-                            "Безвинной осуждена,",
-                            "Мой грех смыла Кровью Она"
-                        ],
-                        [
-                            "Любовь Твою не обьяснить.",
-                            "Ты смерть приняла, чтобы мне жить.",
-                            "Христа Благодать, тебя не понять",
-                            "Ты - непостижима."
-                        ],
-                        [
-                            "Смерть, где жало твоё?",
-                            "Мертво, как распятый мой грех!",
-                            "И Крест - жертва за всех-",
-                            "Учит Милости. Сердце  поёт." 
-                        ],
-                        [
-                            "В день скорби Тебя дай призвать,",
-                            "И Силу мне даст Благодать.",
-                            "Христа Благодать, тебя не понять" ,
-                            "Ты - непостижима"
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "О, всё отдам я," ,
-                            "чтобы подобным Тебе стать",
-                            "Иисус, так жажду Тебя знать.",
-                            "Сердце навеки с Тобой."
-                        ]
-                    ],
-                    "bridges": [
-                        [
-                            "Ведь это всё сделал Иисус мой!",
-                            "Ведь всё сделал Иисус мой!",
-                            "Любовь Себя отдала",
-                            "Чтобы Жизнь мне дать"
-                        ]
-                    ]
-                },
-                {
-                    "lang": "en",
-                    "verses": [
-                        [
-                            "Grace, what have you done?",
-                            "Murdered for me on that cross",
-                            "Accused in absence of wrong",
-                            "My sin washed away in Your blood"
-                        ],
-                        [
-                            "Too much to make sense of it all",
-                            "I know that Your love breaks my fall",
-                            "The scandal of grace, You died in my place",
-                            "So my soul will live"
-                        ],
-                        [
-                            "Death, where is your sting?",
-                            "Your power is as dead as my sin",
-                            "The Cross has taught me to live",
-                            "And mercy, my heart now to sing"
-                        ],
-                        [
-                            "The day and its troubles shall come",
-                            "I know that Your strength is enough",
-                            "The scandal of grace, You died in my place",
-                            "So my soul will live"
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Oh to be like You",
-                            "Give all I have just to know You",
-                            "Jesus there's no one beside You",
-                            "Forever the Hope in my heart"
-                        ]
-                    ],
-                    "bridges": [
-                        [
-                            "And it's all because of You, Jesus",
-                            "It's all because of You, Jesus",
-                            "It's all because of Your love",
-                            "That my soul will live"
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "staryj-krest",  
-            "orig": "ru",
-            "name": "Старый крест (На далёком холме)", 
-            "lyrics": [
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "На далеком холме, средь деревьев и скал",
-                            "Сквозь седые века старый крест простоял.",
-                            "Миллионы людей  у подножья креста",
-                            "Свое счастье нашли, там однажды был я."
-                        ],
-                        [
-                            "Между небом святым и греховной землей",
-                            "Пропасть злая лежит, разделяя собой.",
-                            "Хочешь верь, хочешь нет, слушай слово Творца.",
-                            "Крест - единственный мост от земли в небеса."
-                        ],
-                        [
-                            "Иисус дорогой, у подножья креста",
-                            "На далеком холме я увидел Тебя:",
-                            "На пронзенных руках не застывшая кровь,",
-                            "А в прекрасных глазах Божья к людям любовь."
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Старый крест, старый крест,",
-                            "Неброский, но лишь в нём",
-                            "Сила есть, сила есть, сегодня может он",
-                            "Исцелять разбитые, больные сердца,",
-                            "Каждому пришедшему открыть небеса."
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "ja-poznal-chto-velik-gospod",
-            "orig": "ru",  
-            "name": "Я познал, что велик Господь", 
-            "lyrics": [
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "Я познал, что велик Господь",
-                            "Он превыше других богов,",
-                            "Он творит всё что хочет",
-                            "На небе и на земле."
-                        ],
-                        [
-                            "Облака поднимает,",
-                            "В шумном месте грохочет,",
-                            "При дожде творит молнии,",
-                            "Его слава везде."
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Хвалите имя Господа", 
-                            "в доме Бога нашего",
-                            "Пойте Имени Его",
-                            "Ибо это сладостно.",
-                            "Аллилуйя, аллилуйя, Иисус!"
-                        ]
-                    ]
-                    ,
-                    "bridges": [
-                        [
-                            "Иисус - Господь над всей землей!",
-                            "Иисус воскрес, и Он живой!"
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "iisus-zhivoj",
-            "orig": "ru",  
-            "name": "Иисус живой (Короп)", 
-            "lyrics": [
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "Кто-то хвалится машиной,", 
-                            "у кого-то поезда.",
-                            "Кто-то тратит миллионы,", 
-                            "покупая острова."
-                        ],
-                        [   
-                            "Но меня давно не греет",
-                            "вся мирская суета,",
-                            "Потому что в моем сердце",
-                            "есть Жемчужина одна."
-                        ],
-                        [
-                            "Этот праздник в моем сердце -",
-                            "Этот праздник без конца.",
-                            "И его не остановишь,",
-                            "Ведь этот праздник - без конца"
-                        ],
-                        [
-                            "Радость льётся в мое сердце,",
-                            "Радость льётся через край.",
-                            "И если хочешь эту радость",
-                            "Ты в свое сердце принимай."
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Иисус живой (3р)",
-                            "Навеки в завете со мной!",
-                            "Иисус живой (3р)",
-                            "в завете со мной!"
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "jesus-thank-you",
-            "orig": "en",  
-            "name": "Иисус, Спасибо!", 
-            "lyrics": [
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "Ты на земле поставил",
-                            "Свой тяжелый крест",
-                            "На нем Ты пролил Кровь Свою",
-                            "Чтоб я с Тобой, мой Агнец, умер и воскрес",
-                            "Чтоб я с Тобой навеки был в раю"
-                        ],
-                        [
-                            "Не хватит жизни, чтоб постигнуть до конца",
-                            "Великую любовь Твою",
-                            "В смиреньи отдаем Тебе свои сердца",
-                            "Как Ты отдал жизнь Свою" 
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Мой грех омыла Твоя Кровь",
-                            "Иисус, спасибо!",
-                            "Крестом доказана Отца любовь",
-                            "Иисус, спасибо!",
-                            "Ты Своего врага за стол Свой посадил",
-                            "Иисус, спасибо!"
-                        ]
-                    ]
-                    ,
-                    "bridges": [
-                        [
-                            "И моя душа",
-                            "Жить будет для Тебя"
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "poj-alliluja-korop",  
-            "orig": "ru",
-            "name": "Пой аллилуйя (Короп)", 
-            "lyrics": [
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "Муж скробей, изведавший болезни,",
-                            "Он был презираем, и унижен.",
-                            "Наказанье мира на Нём было,",
-                            "Ранами Его мы исцелились.",
-                        ],
-                        [
-                            "Принял Он страданья добровольно,",
-                            "Как овца был веден на закланье",
-                            "Пред стригущими Он был безгласен,",
-                            "Не было в Нём вида, ни величья"
-                        ],
-                        [
-                            "Преклонится всякое колено",
-                            "Перед Святым Именем Господним",
-                            "Перед Агнцем Божьим на закланьи",
-                            "Умершим за наши преступленья."
-                        ],
-                        [
-                            "Он - в одежде, обагренной кровью",
-                            "Его Имя - Слово Божье!",
-                            "Царь Царей, сидящий на Престоле",
-                            "Он грядёт! Он – Первый и Последний!"
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Пой Аллилуйя!",
-                            "Пой Аллилуйя!",
-                            "Пой Аллилуйя Господу!"
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "worthy-is-the-lamb",  
-            "orig": "en",
-            "name": "Worthy is the Lamb", 
-            "lyrics": [
-                {
-                    "lang": "en",
-                    "verses": [
-                        [
-                            "Thank you for the cross Lord",
-                            "Thank you for the price You paid",
-                            "Bearing all my sin and shame",
-                            "In love You came and gave amazing grace"
-                        ],
-                        [
-                            "Thank you for this love Lord",
-                            "Thank you for the nail pierced hands",
-                            "Washed me in Your cleansing flow",
-                            "Now all I know Your forgiveness and embrace"
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Worthy is the Lamb",
-                            "Seated on the throne",
-                            "Crown You now with many crowns",
-                            "You reign victorious",
-                        ],
-                        [
-                            "High and lifted up",
-                            "Jesus, Son of God",
-                            "The Darling of Heaven crucified",
-                            "Worthy is the Lamb",
-                            "Worthy is the Lamb"
-                        ]
-                    ]
-                    ,
-                    "bridges": [
-                        [
-                            "Worthy is the Lamb",
-                            "Worthy is the Lamb"
-                        ]
-                    ]
-                },
-                {
-                    "lang": "ru",
-                    "verses": [
-                        [
-                            "Мой Господь спасибо",
-                            "За меня Ты жизнь отдал",
-                            "Все грехи на крест забрал",
-                            "Любовь мне дал",
-                            "Излил всю благодать"
-                        ],
-                        [
-                            "За любовь спасибо",
-                            "За раны на Твоих руках",
-                            "Тобой омыта жизнь моя и знаю я",
-                            "Ты навсегда простил меня"
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Агнец в небесах",
-                            "Вознесен на трон",
-                            "Коронован на века",
-                            "В победе правит Он"
-                        ],
-                        [
-                            "Принял всю хвалу",
-                            "Божий Сын Иисус",
-                            "Подарок небесный был распят",
-                            "Агнец в небесах",
-                            "Агнец в небесах"
-                        ]
-                    ]
-                    ,
-                    "bridges": [
-                        [
-                            "Агнец в небесах",
-                            "Агнец в небесах"
-                        ]
-                    ]
-                }
-            ]
-        },
-        { 
-            "id": "forever-kari-jobe",  
-            "orig": "en",
-            "name": "Forever (Kari Jobe)", 
-            "lyrics": [
-                {
-                    "lang": "en",
-                    "verses": [
-                        [
-                            "The moon and stars they wept",
-                            "The morning sun was dead",
-                            "The Savior of the world was fallen",
-                            "His body on the cross",
-                            "His blood poured out for us",
-                            "The weight of every curse upon Him"
-                        ],
-                        [
-                            "One final breath He gave",
-                            "As Heaven looked away",
-                            "The Son of God was laid in darkness",
-                            "A battle in the grave",
-                            "The war on death was waged",
-                            "The power of hell forever broken"
-                        ],
-                        [   
-                            "The ground began to shake",
-                            "The stone was rolled away",
-                            "His perfect Love could not be overcome",
-                            "Now death, where is your sting?",
-                            "Our resurrected King has rendered you defeated"
-                        ]
-                    ],
-                    "choruses": [
-                        [
-                            "Forever, He is glorified",
-                            "Forever, He is lifted high",
-                            "Forever, He is risen",
-                            "He is alive",
-                            "He is alive"
-                        ]
-                    ]
-                    ,
-                    "bridges": [
-                        [
-                            "We sing Hallelijah (x3)",
-                            "The Lord has overcome!"
-                        ]
-                    ]
-                }
-            ]
-        }
-    ];
+    
 
     // var lang = function(x) {
     //     if (x == 0) return "en";
@@ -788,7 +82,7 @@ Mei.Songs = (function () {
         console.log("********** bootstrapSongList() start");
 
         var list = document.getElementById("song-name-list");
-        var songs = list.getElementsByTagName('div');
+        var songs = list.getElementsByTagName('li');
         // http://2cor214.blogspot.ca/2010/08/passing-arguments-to-event-handler-in.html
         for (var l = 0; l < songs.length; l++) {
             // var song_id = songs[l].id.replace('s', '');
@@ -809,7 +103,7 @@ Mei.Songs = (function () {
 
     var createTab = function(id) {
         var tabs = document.getElementById("tabs");
-        var ul = document.createElement("ul");
+        var ul = document.createElement("ol");
         var li = document.createElement("li");
         var a = document.createElement("a");
         a.href = "#"+id;
@@ -862,18 +156,20 @@ Mei.Songs = (function () {
         list.style = "display: block";
 
         // Step #: fill the song list ontainer with song items
+        var ol = document.createElement("ol");
         var s = 0;
         // // console.log("********** available songs: ");
         while (s < store.length) {
             // // console.log((s+1) + ") " + store[s].name);
-            var song = document.createElement("div");
+            var song = document.createElement("li");
             song.innerHTML = store[s].name;
             // TODO:
             // song.id = store[s].orig +"-"+ store[s].id; 
             song.id = store[s].id;
-            list.appendChild(song);
+            ol.appendChild(song);
             s++;
         }
+        list.appendChild(ol);
 
         // Step #: bootstrap the song items in the song list container
         bootstrapSongList();
@@ -1218,3 +514,1080 @@ window.onload = function() {
     // Mai.Store.init();
     Mei.Songs.init();
 };
+
+
+// =============================================
+var template = 
+{ 
+    "id": "xxx",  
+    "orig": "en",
+    "name": "xxx", 
+    "lyrics": [
+        {
+            "lang": "xx",
+            "verses": [
+                [
+                    ""
+                ]
+            ],
+            "choruses": [
+                [
+                    ""
+                ]
+            ]
+            ,
+            "bridges": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "lang": "xxx",
+            "verses": [
+                [
+                    ""
+                ]
+            ],
+            "choruses": [
+                [
+                    ""
+                ]
+            ]
+            ,
+            "bridges": [
+                [
+                    ""
+                ]
+            ]
+        }
+    ]
+}
+;
+    // =============================================
+
+var store = [
+    { 
+        "id": "hosanna-in-the-highest",  
+        "orig": "en",
+        "name": "Hosanna in the Highest", 
+        "lyrics": [
+            {
+                "lang": "en",
+                "verses": [
+                    [
+                        "I see the King of Glory",
+                        "coming on the clouds with Fire",
+                        "the whole earth shakes (x2)",
+                        "I see His Love and Mercy",
+                        "washing over all our sin",
+                        "the people sing (x2)"
+                    ],
+                    [
+                        "I see a generation",
+                        "Rising up to take their place",
+                        "with selfless faith (x2)",
+                        "I see a near revival",
+                        "Stirring as we pray and seek",
+                        "we're on our knees (x2)"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Hosanna! Hosanna!",
+                        "Hosanna in the highest!",
+                        "Hosanna! Hosanna!",
+                        "Hosanna in the highest!"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "Heal my heart and make it clean",
+                        "Open up my eyes to the Things Unseen",
+                        "show me how to Love",
+                        "like You have Loved me"
+                    ],
+                    [
+                        "Break my heart for what breaks Yours",
+                        "everything i am",
+                        "for Your Kingdom's cause",
+                        "as I walk from earth into Eternity"
+                    ]
+                ]
+            },
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Я вижу, как Царь Славы в",
+                        "облаках идёт с огнём ",
+                        "Трепещет всё (x2)",
+                        "Я вижу, как Любовью",
+                        "Все грехи омоет Он ",
+                        "Земля поёт (x2)"
+                    ],
+                    [
+                        "Я вижу поколение,",
+                        "С верой искренней встаёт, ",
+                        "Занять свой пост (x2)",
+                        "Я вижу, как с молитвой,",
+                        "Пробужденье к нам придёт," ,
+                        "Склонимся вновь (x2)"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Осанна, Осанна,",
+                        "Осанна Богу в вышних ",
+                        "Осанна, Осанна,",
+                        "Осанна Богу в вышних"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "Сердце исцели, омой, ",
+                        "B Мир Невидимый",
+                        "Мне глаза открой" ,
+                        "Научи Любить",
+                        "Как Ты всех Любишь ",
+                    ],
+                    [
+                        "Сделай Боль Свою моей, ",
+                        "Царствию отдам всё,",
+                        "Что есть во мне ",
+                        "Так пройду свой путь земной",
+                        "Я к Вечности."
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "davayte-pridem-k-gospodu",  
+        "orig": "ru",
+        "name": "Давайте придём к Господу", 
+        "lyrics": [
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Давайте придём к Господу, ",
+                        "Ибо Он призвал нас к Себе ",
+                        "Влюбляйтесь в Него, ",
+                        "Он сказал:" ,
+                        "Ты - невеста Моя навсегда, ",
+                        "Я - Твой, а ты - Моя"
+                    ],
+                    [
+                        "Меня Ты зовёшь за Собой,", 
+                        "Ты ревнуешь о сердце моём ",
+                        "Ради Тебя оставлю я всё, ",
+                        "Ты сказал: «Оставь дом отца своего, ",
+                        "Возлюби Меня больше всего"
+                    ]
+
+                ],
+                "choruses": [
+                    [
+                        "Вот моё обещание," ,
+                        "молитва моя, от всего сердца, всем, ",
+                        "Я буду любить Тебя, ",
+                        "Буду любить Тебя"
+                    ],
+                    [
+                        "Всем моим сердцем, душой и умом" ,
+                        "Я восхищаюсь Тобой ",
+                        "Я буду любить Тебя, ",
+                        "Буду любить Тебя"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "Иисус, я твой и навеки",
+                        "Ничего больше не хочу",
+                        "Только быть с Тобой"
+                    ],
+                    [
+                        "Только быть с Тобой, ",
+                        "Только быть с Тобой",
+                        "Только быть с Тобой",
+                        "Только быть с Тобой"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "one-thing-remains",  
+        "orig": "en",
+        "name": "One thing remains", 
+        "lyrics": [
+            {
+                "lang": "en",
+                "verses": [
+                    [
+                        "Higher than the mountains that I face",
+                        "Stronger than the power of the grave",
+                        "Constant in the trial and the change",
+                        "One thing… Remains"
+                    ],
+                    [
+                        "On and on and on and on it goes",
+                        "It overwhelms and satisfies my soul",
+                        "And I never, ever, have to be afraid",
+                        "One thing remains"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Your love never fails,",
+                        "Never gives up",
+                        "Never runs out on me"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "In death, In life, I’m confident and",
+                        "Covered by the Power of",
+                        "Your Great Love",
+                        "My debt is paid, there’s nothing",
+                        "That can separate my heart from",
+                        "Your Great Love"
+                    ]
+                ]
+            },
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        
+                        "Выше всяких гор, что впереди",
+                        "Сильнее силы смерти,",
+                        "Власти тьмы",
+                        "Скала, среди бушующих морей",
+                        "Твоя любовь сильней"
+                    ],
+                    [
+                        "Вновь и вновь и вновь",
+                        "И вновь она",
+                        "Прольется с неба,",
+                        "Напоит меня",
+                        "Больше нечего теперь",
+                        "Бояться мне",
+                        "Твоя любовь сильней"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Твоя любовь будет всегда",
+                        "Наполнять меня"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "И я всегда уверен и наполнен Силою",
+                        "Твоей Любви",
+                        "Мой грех прощен,",
+                        "И ничто не может отделить меня от",
+                        "Твоей Любви"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "vse-usta-proslavlyayte-xrista",  
+        "orig": "ru",
+        "name": "Все уста прославляйте Христа", 
+        "lyrics": [
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Все уста," ,
+                        "Прославляйте Христа",
+                        "Пой Аллилуйя",
+                        "Славь Отца, ищи Его лица",
+                        "Пой Аллилуйя"
+                    ],
+                    [
+                        "Каждый народ ",
+                        "И всякий язык",
+                        "Пой Аллилуйя",
+                        "Всей душой",
+                        "Всем сердцем своим",
+                        "Пой Аллилуйя"
+                    ],
+                    [
+                        "Потому что наш Бог –",
+                        "Праведный Царь",
+                        "Пой Аллилуйя",
+                        "И Он царствует",
+                        "Сидя на небесах",
+                        "Пой Аллилуйя"
+                    ],
+                    [
+                        "Он спасает нас",
+                        "Сильной правой рукой",
+                        "Пой Аллилуйя",
+                        "Наполняет жизнь ",
+                        "Любовью с небес",
+                        "Пой Аллилуйя"
+                    ],
+                    [
+                        "Если молод или стар",
+                        "Богат или нищ",
+                        "Пой Аллилуйя",
+                        "Мал или велик",
+                        "Открой уста",
+                        "Пой Аллилуйя"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "-"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "-"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "be-lifted-high",  
+        "orig": "en",
+        "name": "Be Lifted High", 
+        "lyrics": [
+            {
+                "lang": "en",
+                "verses": [
+                    [
+                        "You're the King of all the ages",
+                        "You're the Author of Salvation",
+                        "You're the reason why we're singing",
+                        "for Your Glory"
+                    ],
+                    [
+                        "Lord, release the sound of Heaven",
+                        "Let it rise in every nation",
+                        "We will join the anthem",
+                        "singing"
+                    ],
+                    [
+                        "You're the Everlasting Father",
+                        "You're the All-consuming Fire",
+                        "You're the Reason why we're living",
+                        "for Your Glory"
+                    ],
+                    [
+                        "We will be the generation",
+                        "Calling down the Reign of Heaven",
+                        "We will join the anthem",
+                        "singing"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Be lifted high",
+                        "Be lifted high",
+                        "For Your glory, be lifted high"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "Be lifted high",
+                        "Be lifted high",
+                        "higher and higher, Lord",
+                        "(x2)"
+                    ]
+                ]
+            },
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "a"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "a"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "a"
+                    ]
+                ]
+            }
+        ]
+    }
+    ,
+    { 
+        "id": "our-god",  
+        "name": "Our God", 
+        "orig": "en",
+        "lyrics": [
+            {
+                "lang": "en",
+                "verses": [
+                    [
+                        "Water You turned into wine",
+                        "Opened the eyes of the blind",
+                        "There's no one like You",
+                        "None like You",
+                    ],
+                    [
+                        "Into the darkness You shine",
+                        "Out of the ashes we rise",
+                        "There's no one like You",
+                        "None like You",
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Our God is greater,",
+                        "Our God is stronger",
+                        "God You are higher than any other",
+                        "Our God is Healer,",
+                        "Awesome in power",
+                        "Our God, Our God"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "And if our God is for us,",
+                        "then who could ever stop us.",
+                        "And if our God is with us,",
+                        "then what could stand against.",
+                    ]
+                ]
+            },
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Воду Ты сделал вином",
+                        "Кто слеп, увидел Твой свет",
+                        "Ведь нет другого,",
+                        "только Ты!",
+                    ],
+                    [
+                        "Светом рассеял Ты тьму",
+                        "Слабых поднял из пыли",
+                        "Ведь нет другого,",
+                        "только Ты!",
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Наш Бог Великий,",
+                        "Наш Бог Всесильный",
+                        "Всех превосходнее в целом мире!",
+                        "Наш Бог Целитель,",
+                        "Чудный Спаситель",
+                        "Наш Бог! Наш Бог!"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "Кто может победить нас,",
+                        "Когда Господь живёт в нас",
+                        "И если Бог за нас,",
+                        "Никто не победит",
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "you-are-worthy",  
+        "orig": "en",
+        "name": "You are worthy", 
+        "lyrics": [
+            {
+                "lang": "en",
+                "verses": [
+                    [
+                        "Any crown I've ever worn I lay it down",
+                        "Any praise I've ever gained",
+                        "I give it all to You",
+                        "For there's nothing in this world",
+                        "that can compare",
+                        "For You alone are worthy (x2)"
+                    ],
+                    [
+                        "You are near to all who call upon Your name",
+                        "Ever givin', ever loving You remain the same",
+                        "For You open up Your hand And satisfy",
+                        "give You all the glory",
+                        "give You all the glory!"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "You are worthy, oh Lord, of all honour",
+                        "You are worthy to receive all praise",
+                        "In Your presence I live",
+                        "And with all I have to give",
+                        "I will worship You"
+                    ]
+                ],
+                "bridges": [
+                    [
+                        "I will worship You",
+                        "Honour You",
+                        "Glorify Your holy name",
+                        "(x2)",
+                    ]
+                ]
+            },
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Все награды и венцы свои отдам",
+                        "Все заслуги и хвалу кладу я",
+                        "пред Тобой",
+                        "Ведь подобного Тебе не видел мир.",
+                        "Лишь Ты Один достоин.",
+                        "Ты Один достоин."
+                    ],
+                    [
+                        "Близок Ты ко всем, кто Имя Твоё чтит",
+                        "Вечно щедрый, вечно любящий,",
+                        "всё Тот же Ты.",
+                        "И за то, что жизнь мою насытил Ты",
+                        "Воздам Тебе всю славу (x2)"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Ты достоин, о, Бог, высшей славы.",
+                        "Ты достоин, Бог, принять всю честь.",
+                        "Я живу для Тебя",
+                        "И всем, что есть внутри меня ",
+                        "Поклоняюсь я."
+                    ]
+                ],
+                "bridges": [
+                    [
+                        "Поклоняюсь я. ",
+                        "Чту Тебя,",
+                        "Славлю я Тебя,",
+                        "Мой Бог",
+                        "(x2)"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "v-glubine-tvoih-sinih-glaz",
+        "orig": "ru",  
+        "name": "В глубине твоих синих глаз", 
+        "lyrics": [
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "В глубине Твоих синих глаз",
+                        "В ритме Сердца Того,",
+                        "Кто есть Жизнь",
+                        "Утонуть хочу.",
+                        "Раствориться хочу. (x2)"
+                    ],
+                    [
+                        "В тихом веянии и в шуме дождя",
+                        "В объятиях Того,",
+                        "Кто – Любовь",
+                        "Затеряться хочу.",
+                        "Ой, хочу. (x2)"
+                    ],
+                    [
+                        "В нежном голосе и в запахе трав",
+                        "В аромате цветов – узкий путь",
+                        "Я идти хочу.",
+                        "Я хочу не уснуть. (x2)"
+                    ],
+                    [
+                        "В тесноте, только не без Тебя",
+                        "В стуке молота и в жаре огня",
+                        "Я согреться хочу.",
+                        "Ой, хочу. (x2)"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "А я к Тебе иду,",
+                        "Твоей Милостью прощённый",
+                        "А я к Тебе стремлюсь,",
+                        "Благодатью спасён",
+                        "А я к Тебе бегу.",
+                        "Твоей Раной исцелённый"
+                    ],
+                    [
+                        "Я Тобой захвачен в Плен",
+                        "В моём сердце сотни стрел",
+                        "Твоей Любви."
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "scandal-of-grace",
+        "orig": "en",  
+        "name": "Scandal of Grace", 
+        "lyrics": [
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Как постичь Благодать,",
+                        "Что смогла за меня смерть принять?",
+                        "Безвинной осуждена,",
+                        "Мой грех смыла Кровью Она"
+                    ],
+                    [
+                        "Любовь Твою не обьяснить.",
+                        "Ты смерть приняла, чтобы мне жить.",
+                        "Христа Благодать, тебя не понять",
+                        "Ты - непостижима."
+                    ],
+                    [
+                        "Смерть, где жало твоё?",
+                        "Мертво, как распятый мой грех!",
+                        "И Крест - жертва за всех-",
+                        "Учит Милости. Сердце  поёт." 
+                    ],
+                    [
+                        "В день скорби Тебя дай призвать,",
+                        "И Силу мне даст Благодать.",
+                        "Христа Благодать, тебя не понять" ,
+                        "Ты - непостижима"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "О, всё отдам я," ,
+                        "чтобы подобным Тебе стать",
+                        "Иисус, так жажду Тебя знать.",
+                        "Сердце навеки с Тобой."
+                    ]
+                ],
+                "bridges": [
+                    [
+                        "Ведь это всё сделал Иисус мой!",
+                        "Ведь всё сделал Иисус мой!",
+                        "Любовь Себя отдала",
+                        "Чтобы Жизнь мне дать"
+                    ]
+                ]
+            },
+            {
+                "lang": "en",
+                "verses": [
+                    [
+                        "Grace, what have you done?",
+                        "Murdered for me on that cross",
+                        "Accused in absence of wrong",
+                        "My sin washed away in Your blood"
+                    ],
+                    [
+                        "Too much to make sense of it all",
+                        "I know that Your love breaks my fall",
+                        "The scandal of grace, You died in my place",
+                        "So my soul will live"
+                    ],
+                    [
+                        "Death, where is your sting?",
+                        "Your power is as dead as my sin",
+                        "The Cross has taught me to live",
+                        "And mercy, my heart now to sing"
+                    ],
+                    [
+                        "The day and its troubles shall come",
+                        "I know that Your strength is enough",
+                        "The scandal of grace, You died in my place",
+                        "So my soul will live"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Oh to be like You",
+                        "Give all I have just to know You",
+                        "Jesus there's no one beside You",
+                        "Forever the Hope in my heart"
+                    ]
+                ],
+                "bridges": [
+                    [
+                        "And it's all because of You, Jesus",
+                        "It's all because of You, Jesus",
+                        "It's all because of Your love",
+                        "That my soul will live"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "staryj-krest",  
+        "orig": "ru",
+        "name": "Старый крест (На далёком холме)", 
+        "lyrics": [
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "На далеком холме, средь деревьев и скал",
+                        "Сквозь седые века старый крест простоял.",
+                        "Миллионы людей  у подножья креста",
+                        "Свое счастье нашли, там однажды был я."
+                    ],
+                    [
+                        "Между небом святым и греховной землей",
+                        "Пропасть злая лежит, разделяя собой.",
+                        "Хочешь верь, хочешь нет, слушай слово Творца.",
+                        "Крест - единственный мост от земли в небеса."
+                    ],
+                    [
+                        "Иисус дорогой, у подножья креста",
+                        "На далеком холме я увидел Тебя:",
+                        "На пронзенных руках не застывшая кровь,",
+                        "А в прекрасных глазах Божья к людям любовь."
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Старый крест, старый крест,",
+                        "Неброский, но лишь в нём",
+                        "Сила есть, сила есть, сегодня может он",
+                        "Исцелять разбитые, больные сердца,",
+                        "Каждому пришедшему открыть небеса."
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "ja-poznal-chto-velik-gospod",
+        "orig": "ru",  
+        "name": "Я познал, что велик Господь", 
+        "lyrics": [
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Я познал, что велик Господь",
+                        "Он превыше других богов,",
+                        "Он творит всё что хочет",
+                        "На небе и на земле."
+                    ],
+                    [
+                        "Облака поднимает,",
+                        "В шумном месте грохочет,",
+                        "При дожде творит молнии,",
+                        "Его слава везде."
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Хвалите имя Господа", 
+                        "в доме Бога нашего",
+                        "Пойте Имени Его",
+                        "Ибо это сладостно.",
+                        "Аллилуйя, аллилуйя, Иисус!"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "Иисус - Господь над всей землей!",
+                        "Иисус воскрес, и Он живой!"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "iisus-zhivoj",
+        "orig": "ru",  
+        "name": "Иисус живой (Короп)", 
+        "lyrics": [
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Кто-то хвалится машиной,", 
+                        "у кого-то поезда.",
+                        "Кто-то тратит миллионы,", 
+                        "покупая острова."
+                    ],
+                    [   
+                        "Но меня давно не греет",
+                        "вся мирская суета,",
+                        "Потому что в моем сердце",
+                        "есть Жемчужина одна."
+                    ],
+                    [
+                        "Этот праздник в моем сердце -",
+                        "Этот праздник без конца.",
+                        "И его не остановишь,",
+                        "Ведь этот праздник - без конца"
+                    ],
+                    [
+                        "Радость льётся в мое сердце,",
+                        "Радость льётся через край.",
+                        "И если хочешь эту радость",
+                        "Ты в свое сердце принимай."
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Иисус живой (3р)",
+                        "Навеки в завете со мной!",
+                        "Иисус живой (3р)",
+                        "в завете со мной!"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "jesus-thank-you",
+        "orig": "en",  
+        "name": "Иисус, Спасибо!", 
+        "lyrics": [
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Ты на земле поставил",
+                        "Свой тяжелый крест",
+                        "На нем Ты пролил Кровь Свою",
+                        "Чтоб я с Тобой, мой Агнец, умер и воскрес",
+                        "Чтоб я с Тобой навеки был в раю"
+                    ],
+                    [
+                        "Не хватит жизни, чтоб постигнуть до конца",
+                        "Великую любовь Твою",
+                        "В смиреньи отдаем Тебе свои сердца",
+                        "Как Ты отдал жизнь Свою" 
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Мой грех омыла Твоя Кровь",
+                        "Иисус, спасибо!",
+                        "Крестом доказана Отца любовь",
+                        "Иисус, спасибо!",
+                        "Ты Своего врага за стол Свой посадил",
+                        "Иисус, спасибо!"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "И моя душа",
+                        "Жить будет для Тебя"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "poj-alliluja-korop",  
+        "orig": "ru",
+        "name": "Пой аллилуйя (Короп)", 
+        "lyrics": [
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Муж скробей, изведавший болезни,",
+                        "Он был презираем, и унижен.",
+                        "Наказанье мира на Нём было,",
+                        "Ранами Его мы исцелились.",
+                    ],
+                    [
+                        "Принял Он страданья добровольно,",
+                        "Как овца был веден на закланье",
+                        "Пред стригущими Он был безгласен,",
+                        "Не было в Нём вида, ни величья"
+                    ],
+                    [
+                        "Преклонится всякое колено",
+                        "Перед Святым Именем Господним",
+                        "Перед Агнцем Божьим на закланьи",
+                        "Умершим за наши преступленья."
+                    ],
+                    [
+                        "Он - в одежде, обагренной кровью",
+                        "Его Имя - Слово Божье!",
+                        "Царь Царей, сидящий на Престоле",
+                        "Он грядёт! Он – Первый и Последний!"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Пой Аллилуйя!",
+                        "Пой Аллилуйя!",
+                        "Пой Аллилуйя Господу!"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "worthy-is-the-lamb",  
+        "orig": "en",
+        "name": "Worthy is the Lamb", 
+        "lyrics": [
+            {
+                "lang": "en",
+                "verses": [
+                    [
+                        "Thank you for the cross Lord",
+                        "Thank you for the price You paid",
+                        "Bearing all my sin and shame",
+                        "In love You came and gave amazing grace"
+                    ],
+                    [
+                        "Thank you for this love Lord",
+                        "Thank you for the nail pierced hands",
+                        "Washed me in Your cleansing flow",
+                        "Now all I know Your forgiveness and embrace"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Worthy is the Lamb",
+                        "Seated on the throne",
+                        "Crown You now with many crowns",
+                        "You reign victorious",
+                    ],
+                    [
+                        "High and lifted up",
+                        "Jesus, Son of God",
+                        "The Darling of Heaven crucified",
+                        "Worthy is the Lamb",
+                        "Worthy is the Lamb"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "Worthy is the Lamb",
+                        "Worthy is the Lamb"
+                    ]
+                ]
+            },
+            {
+                "lang": "ru",
+                "verses": [
+                    [
+                        "Мой Господь спасибо",
+                        "За меня Ты жизнь отдал",
+                        "Все грехи на крест забрал",
+                        "Любовь мне дал",
+                        "Излил всю благодать"
+                    ],
+                    [
+                        "За любовь спасибо",
+                        "За раны на Твоих руках",
+                        "Тобой омыта жизнь моя и знаю я",
+                        "Ты навсегда простил меня"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Агнец в небесах",
+                        "Вознесен на трон",
+                        "Коронован на века",
+                        "В победе правит Он"
+                    ],
+                    [
+                        "Принял всю хвалу",
+                        "Божий Сын Иисус",
+                        "Подарок небесный был распят",
+                        "Агнец в небесах",
+                        "Агнец в небесах"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "Агнец в небесах",
+                        "Агнец в небесах"
+                    ]
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "forever-kari-jobe",  
+        "orig": "en",
+        "name": "Forever (Kari Jobe)", 
+        "lyrics": [
+            {
+                "lang": "en",
+                "verses": [
+                    [
+                        "The moon and stars they wept",
+                        "The morning sun was dead",
+                        "The Savior of the world was fallen",
+                        "His body on the cross",
+                        "His blood poured out for us",
+                        "The weight of every curse upon Him"
+                    ],
+                    [
+                        "One final breath He gave",
+                        "As Heaven looked away",
+                        "The Son of God was laid in darkness",
+                        "A battle in the grave",
+                        "The war on death was waged",
+                        "The power of hell forever broken"
+                    ],
+                    [   
+                        "The ground began to shake",
+                        "The stone was rolled away",
+                        "His perfect Love could not be overcome",
+                        "Now death, where is your sting?",
+                        "Our resurrected King has rendered you defeated"
+                    ]
+                ],
+                "choruses": [
+                    [
+                        "Forever, He is glorified",
+                        "Forever, He is lifted high",
+                        "Forever, He is risen",
+                        "He is alive",
+                        "He is alive"
+                    ]
+                ]
+                ,
+                "bridges": [
+                    [
+                        "We sing Hallelijah (x3)",
+                        "The Lord has overcome!"
+                    ]
+                ]
+            }
+        ]
+    }
+];
