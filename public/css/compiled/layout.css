@@ -1,28 +1,47 @@
 body {
-  background: url('../img/blue-sky-background.jpg') no-repeat center center fixed;
+  background: url('../../img/blue-sky-background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#song-name-list ul {
+.return {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+}
+.highlighted {
+  /*http://stackoverflow.com/questions/637921/opacity-of-background-color-but-not-the-text*/
+  /* Fallback for web browsers that don't support RGBa */
+  background-color: #000000;
+  /* RGBa with 0.2 opacity */
+  background-color: rgba(0, 0, 0, 0.2);
+  /*font-size: 1.5em;*/
+}
+#song-name-list {
+  display: block;
+}
+#song-name-list ol {
   -moz-column-count: 3;
   /* Firefox */
-  -moz-column-gap: 5px;
+  -moz-column-gap: 3em;
   /* Firefox */
   -webkit-column-count: 3;
   /* Safari and Chrome */
-  -webkit-column-gap: 5px;
+  -webkit-column-gap: 4em;
   /* Safari and Chrome */
   /*    -moz-columns:10px 5; /* Firefox */
   /*    -webkit-columns:10px 5; /* Safari and Chrome */
   /*columns:10px 5;*/
   column-count: 3;
   column-fill: auto;
-  column-gap: 5px;
+  column-gap: 3em;
   /*list-style-image: url('../img/note.png');*/
   margin: 2%;
   padding-left: 5px;
+}
+#song-name-list li {
+  padding: 0.5em 0;
+  width: 88%;
 }
 nav {
   /*margin: -1% 0px -4%;*/
@@ -35,6 +54,10 @@ nav {
 }
 nav * {
   display: inline-block;
+}
+#back-arrow img {
+  width: 3em;
+  vertical-align: middle;
 }
 ul#tabs {
   list-style-type: none;
@@ -61,6 +84,7 @@ div.tabContent.hide {
 }
 #back-arrow {
   cursor: pointer;
+  display: inline-block;
 }
 #song-name-list * {
   cursor: pointer;

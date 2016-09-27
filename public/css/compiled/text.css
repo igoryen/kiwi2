@@ -1,3 +1,11 @@
+/*@font-face {
+    font-family: arialnarrow;
+    src: url(../../fonts/arial-narrow.ttf);
+    font-weight: lighter;
+}*/
+#song-name-list {
+  font-family: "Arial", sans-serif;
+}
 #song-name-list ul {
   font-family: "Arial", sans-serif;
   font-size: 1.4em;
@@ -10,7 +18,10 @@ footer {
 }
 div.tabContent {
   /*font-size: 300%;*/
+  /*font-family: arialnarrow;*/
   font-family: "ArialNarrow", sans-serif;
+  /*font-family: @Arial;*/
+  font-stretch: condensed;
   font-size: 4.6em;
   font-weight: bold;
   text-align: center;
